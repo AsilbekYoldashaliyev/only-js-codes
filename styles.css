@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 2rem;
+    font-size: 100%;
+    background-color: rgb(76, 72, 72);
+}

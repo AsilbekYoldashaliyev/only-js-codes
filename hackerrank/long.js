@@ -17,15 +17,36 @@
 
 // console.log(extraLongFactorials(25))
 
-function reverseWords(str) {
+// function reverseWords(str) {
 
-    let harf = str.split('');
+//     let harf = str.split('');
     
-    let result = [];
+//     let result = [];
    
-    return result
-    }
+//     return result
+//     }
   
   
   
-    console.log(reverseWords('The world best'));
+//     console.log(reverseWords('The world best'));
+
+//     function num(ber) {
+//         let result = []
+
+//             let multiple = BigInt(1)
+        
+//             for(let i = 1; i <= ber; i++){
+//                result.push(i)
+//             }
+            
+//     for(let a = 0; a < result.length; a++){
+//    multiple = multiple * BigInt(result[a])
+//     }
+
+// return String(multiple)
+
+// }
+          
+    
+
+//     console.log(num(5));

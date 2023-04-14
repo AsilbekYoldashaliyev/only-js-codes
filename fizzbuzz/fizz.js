@@ -1,4 +1,3 @@
-
 // let output = [];
 
 // for (let nums = 1; nums <= 100; nums++) {
@@ -13,22 +12,19 @@
 //   }
 // }
 
-
 // const printOutput = () => {
 //   console.log(output);
 // };
 
 // printOutput();
 
-
 /////// LIST FILTERING
 
-// function div(n){ 
-    
+// function div(n){
+
 // return n.filter(Number)
 
 // }
-
 
 // console.log(div([1,2,0,2,'ar','aw']));
 
@@ -48,13 +44,30 @@
 ///// Convert Hash To An Array
 
 // function toNumberArray(stringarray){
-  
+
 // let result = []
 
 // for (let i = 0; i < stringarray.length; i++) {
-    
+
 // }
 //  return result
 // }
 
 // console.log(toNumberArray(["1","2","3","0"]));
+
+// Add Length
+
+// function addLength(str) {
+
+//     let arr =[]
+
+//     str.split()
+
+//     for (let i = 0; i < str.length; i++) {
+        
+//     }
+//     return arr
+    
+// }
+
+// console.log(addLength("ban add"));

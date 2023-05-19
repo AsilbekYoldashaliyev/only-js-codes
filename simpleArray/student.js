@@ -1,4 +1,3 @@
-
 // grades student
 
 // function gradingStudents(grades) {
@@ -28,3 +27,20 @@
  * 8. grades[i] = grades[i] + (  multiple -  (grades[i] % multiple) )
  * 9. return grades
  */
+
+function catAndMouse(x, y, z) {
+  let catA = Math.abs(x - z);
+
+  let catB = Math.abs(y - z);
+
+  if (catA < catB) {
+    return "Cat B";
+  } else if (catB < catA) {
+    return "Cat A";
+  } else {
+    return "Mouse C";
+  }
+
+}
+
+console.log(catAndMouse(1, 3, 2));

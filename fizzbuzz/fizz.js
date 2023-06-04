@@ -64,10 +64,31 @@
 //     str.split()
 
 //     for (let i = 0; i < str.length; i++) {
-        
+
 //     }
 //     return arr
-    
+
 // }
 
 // console.log(addLength("ban add"));
+
+function extraLongFactorials(n) {
+
+    let arr =[]
+
+    let kopaytirish = BigInt(1)
+
+    for (let i = 1; i <= n; i++) {
+       
+        arr.push(i)
+    }
+
+    for (let a = 0; a < arr.length; a++) {
+        
+    kopaytirish *= BigInt(arr[a]) 
+      
+    }
+
+    return String(kopaytirish)
+}
+console.log(extraLongFactorials(25));
